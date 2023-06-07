@@ -1,0 +1,186 @@
+
+2023-05-10 15:25:03,507 (INFO): a escutar na porta 8000
+2023-05-10 15:25:05,722 (INFO): o cliente com endereço ('127.0.0.1', 52240) ligou-se!
+2023-05-10 15:25:57,320 (INFO): a escutar na porta 8000
+2023-05-10 15:25:59,750 (INFO): o cliente com endereço ('127.0.0.1', 52244) ligou-se!
+2023-05-10 15:27:25,753 (INFO): a escutar na porta 8000
+2023-05-10 15:27:27,782 (INFO): o cliente com endereço ('127.0.0.1', 52252) ligou-se!
+2023-05-10 15:29:42,398 (INFO): a escutar na porta 8000
+2023-05-10 15:29:44,721 (INFO): o cliente com endereço ('127.0.0.1', 52273) ligou-se!
+2023-05-10 15:31:30,535 (INFO): a escutar na porta 8000
+2023-05-10 15:31:32,767 (INFO): o cliente com endereço ('127.0.0.1', 52284) ligou-se!
+2023-05-10 15:32:06,154 (INFO): a escutar na porta 8000
+2023-05-10 15:32:06,458 (INFO): o cliente com endereço ('127.0.0.1', 52287) ligou-se!
+2023-05-10 15:32:18,567 (INFO): a escutar na porta 8000
+2023-05-10 15:32:20,848 (INFO): o cliente com endereço ('127.0.0.1', 52289) ligou-se!
+2023-05-10 15:33:08,150 (INFO): a escutar na porta 8000
+2023-05-10 15:33:10,342 (INFO): o cliente com endereço ('127.0.0.1', 52293) ligou-se!
+2023-05-10 15:34:29,621 (INFO): a escutar na porta 8000
+2023-05-10 15:34:32,033 (INFO): o cliente com endereço ('127.0.0.1', 52298) ligou-se!
+2023-05-10 15:34:55,760 (INFO): a escutar na porta 8000
+2023-05-10 15:34:58,848 (INFO): o cliente com endereço ('127.0.0.1', 52302) ligou-se!
+2023-05-10 15:46:34,471 (INFO): a escutar na porta 8000
+2023-05-10 15:46:36,686 (INFO): o cliente com endereço ('127.0.0.1', 52403) ligou-se!
+2023-05-10 15:52:35,193 (INFO): a escutar na porta 8000
+2023-05-10 15:52:37,468 (INFO): o cliente com endereço ('127.0.0.1', 52427) ligou-se!
+2023-05-10 15:54:36,819 (INFO): a escutar na porta 8000
+2023-05-10 15:54:38,820 (INFO): o cliente com endereço ('127.0.0.1', 52442) ligou-se!
+2023-05-10 15:55:24,620 (INFO): a escutar na porta 8000
+2023-05-10 15:55:37,815 (INFO): a escutar na porta 8000
+2023-05-10 15:55:43,415 (INFO): o cliente com endereço ('127.0.0.1', 52446) ligou-se!
+2023-05-10 15:56:39,780 (INFO): a escutar na porta 8000
+2023-05-10 15:56:42,081 (INFO): o cliente com endereço ('127.0.0.1', 52450) ligou-se!
+2023-05-10 15:57:15,701 (INFO): a escutar na porta 8000
+2023-05-10 15:57:17,599 (INFO): o cliente com endereço ('127.0.0.1', 52453) ligou-se!
+2023-05-10 15:59:20,728 (INFO): a escutar na porta 8000
+2023-05-10 15:59:23,023 (INFO): o cliente com endereço ('127.0.0.1', 52471) ligou-se!
+2023-05-10 16:01:46,312 (INFO): a escutar na porta 8000
+2023-05-10 16:01:48,973 (INFO): o cliente com endereço ('127.0.0.1', 52480) ligou-se!
+2023-05-10 16:14:27,739 (INFO): a escutar na porta 8000
+2023-05-10 16:14:30,970 (INFO): o cliente com endereço ('127.0.0.1', 52568) ligou-se!
+2023-05-10 16:14:50,169 (INFO): a escutar na porta 8000
+2023-05-10 16:14:52,340 (INFO): o cliente com endereço ('127.0.0.1', 52571) ligou-se!
+2023-05-10 18:31:35,077 (INFO): a escutar no porto 8000
+2023-05-10 18:31:38,133 (INFO): o cliente com endereço ('127.0.0.1', 53221) ligou-se!
+2023-05-11 14:25:00,293 (INFO): a escutar no porto 8000
+2023-05-11 14:25:04,853 (INFO): o cliente com endereço ('127.0.0.1', 51836) ligou-se!
+2023-05-11 16:09:55,989 (INFO): a escutar no porto 8000
+2023-05-11 16:10:00,710 (INFO): o cliente com endereço ('127.0.0.1', 52770) ligou-se!
+2023-05-11 16:20:41,260 (INFO): a escutar no porto 8000
+2023-05-11 16:20:46,444 (INFO): o cliente com endereço ('127.0.0.1', 52877) ligou-se!
+2023-05-11 16:23:18,596 (INFO): a escutar no porto 8000
+2023-05-11 16:23:22,498 (INFO): o cliente com endereço ('127.0.0.1', 52898) ligou-se!
+2023-05-11 16:26:38,603 (INFO): a escutar no porto 8000
+2023-05-11 16:26:42,291 (INFO): o cliente com endereço ('127.0.0.1', 52927) ligou-se!
+2023-05-11 16:28:45,389 (INFO): a escutar no porto 8000
+2023-05-11 16:28:48,632 (INFO): o cliente com endereço ('127.0.0.1', 52936) ligou-se!
+2023-05-11 16:34:12,228 (INFO): a escutar no porto 8000
+2023-05-11 16:34:15,907 (INFO): o cliente com endereço ('127.0.0.1', 52954) ligou-se!
+2023-05-11 16:36:38,187 (INFO): a escutar no porto 8000
+2023-05-11 16:36:41,551 (INFO): o cliente com endereço ('127.0.0.1', 52960) ligou-se!
+2023-05-11 16:40:55,349 (INFO): a escutar no porto 8000
+2023-05-11 16:40:58,633 (INFO): o cliente com endereço ('127.0.0.1', 52973) ligou-se!
+2023-05-11 16:42:01,544 (INFO): a escutar no porto 8000
+2023-05-11 16:42:05,428 (INFO): o cliente com endereço ('127.0.0.1', 52976) ligou-se!
+2023-05-11 16:43:18,279 (INFO): a escutar no porto 8000
+2023-05-11 16:43:20,404 (INFO): o cliente com endereço ('127.0.0.1', 52979) ligou-se!
+2023-05-11 16:49:29,013 (INFO): a escutar no porto 8000
+2023-05-11 16:49:33,875 (INFO): o cliente com endereço ('127.0.0.1', 53002) ligou-se!
+2023-05-11 16:49:53,783 (INFO): a escutar no porto 8000
+2023-05-11 16:49:57,098 (INFO): o cliente com endereço ('127.0.0.1', 53006) ligou-se!
+2023-05-11 16:52:03,163 (INFO): a escutar no porto 8000
+2023-05-11 16:52:05,488 (INFO): o cliente com endereço ('127.0.0.1', 53008) ligou-se!
+2023-05-11 16:54:52,819 (INFO): a escutar no porto 8000
+2023-05-11 16:54:55,570 (INFO): o cliente com endereço ('127.0.0.1', 53017) ligou-se!
+2023-05-11 16:56:04,076 (INFO): a escutar no porto 8000
+2023-05-11 16:56:07,188 (INFO): o cliente com endereço ('127.0.0.1', 53021) ligou-se!
+2023-05-11 16:57:47,076 (INFO): a escutar no porto 8000
+2023-05-11 16:57:50,278 (INFO): o cliente com endereço ('127.0.0.1', 53035) ligou-se!
+2023-05-11 17:00:50,259 (INFO): a escutar no porto 8000
+2023-05-11 17:00:58,288 (INFO): o cliente com endereço ('127.0.0.1', 53047) ligou-se!
+2023-05-16 11:15:41,236 (INFO): a escutar no porto 8000
+2023-05-16 11:15:45,116 (INFO): o cliente com endereço ('127.0.0.1', 54788) ligou-se!
+2023-05-16 11:17:12,694 (INFO): a escutar no porto 8000
+2023-05-16 11:17:15,001 (INFO): o cliente com endereço ('127.0.0.1', 54799) ligou-se!
+2023-05-16 11:22:54,817 (INFO): a escutar no porto 8000
+2023-05-16 11:22:58,664 (INFO): o cliente com endereço ('127.0.0.1', 54859) ligou-se!
+2023-05-16 11:23:14,714 (INFO): a escutar no porto 8000
+2023-05-16 11:23:17,423 (INFO): o cliente com endereço ('127.0.0.1', 54862) ligou-se!
+2023-05-16 11:28:46,433 (INFO): a escutar no porto 8000
+2023-05-16 11:28:48,904 (INFO): o cliente com endereço ('127.0.0.1', 54891) ligou-se!
+2023-05-16 11:33:42,766 (INFO): a escutar no porto 8000
+2023-05-16 11:33:45,562 (INFO): o cliente com endereço ('127.0.0.1', 54922) ligou-se!
+2023-06-06 15:19:10,504 (INFO): a escutar no porto 8000
+2023-06-06 15:19:13,269 (INFO): o cliente com endereço ('127.0.0.1', 60379) ligou-se!
+2023-06-06 16:42:05,476 (INFO): a escutar na porta 8000
+2023-06-06 16:42:09,022 (INFO): o cliente com endereço ('127.0.0.1', 51068) ligou-se!
+2023-06-06 16:58:06,041 (INFO): a escutar na porta 8000
+2023-06-06 17:01:19,374 (INFO): a escutar na porta 8000
+2023-06-06 17:01:22,377 (INFO): o cliente com endereço ('127.0.0.1', 51205) ligou-se!
+2023-06-06 17:21:23,670 (INFO): a escutar na porta 8000
+2023-06-06 17:21:25,335 (INFO): o cliente com endereço ('127.0.0.1', 51471) ligou-se!
+2023-06-06 17:22:15,369 (INFO): a escutar na porta 8000
+2023-06-06 17:22:17,819 (INFO): o cliente com endereço ('127.0.0.1', 51476) ligou-se!
+2023-06-06 19:54:05,571 (INFO): a escutar na porta 8000
+2023-06-06 19:54:09,653 (INFO): o cliente com endereço ('127.0.0.1', 50413) ligou-se!
+2023-06-06 19:55:51,320 (INFO): a escutar na porta 8000
+2023-06-06 19:55:56,837 (INFO): o cliente com endereço ('127.0.0.1', 50427) ligou-se!
+2023-06-06 19:58:12,567 (INFO): a escutar na porta 8000
+2023-06-06 19:58:15,751 (INFO): o cliente com endereço ('127.0.0.1', 50680) ligou-se!
+2023-06-06 19:58:31,961 (INFO): a escutar na porta 8000
+2023-06-06 19:58:34,329 (INFO): o cliente com endereço ('127.0.0.1', 50682) ligou-se!
+2023-06-06 20:00:07,310 (INFO): a escutar na porta 8000
+2023-06-06 20:00:10,950 (INFO): o cliente com endereço ('127.0.0.1', 50687) ligou-se!
+2023-06-06 20:04:29,730 (INFO): a escutar na porta 8000
+2023-06-06 20:04:32,877 (INFO): o cliente com endereço ('127.0.0.1', 50715) ligou-se!
+2023-06-06 20:13:25,348 (INFO): a escutar na porta 8000
+2023-06-06 20:14:13,950 (INFO): a escutar na porta 8000
+2023-06-06 20:14:16,914 (INFO): o cliente com endereço ('127.0.0.1', 50756) ligou-se!
+2023-06-06 20:15:08,443 (INFO): a escutar na porta 8000
+2023-06-06 20:15:10,524 (INFO): o cliente com endereço ('127.0.0.1', 50758) ligou-se!
+2023-06-06 20:16:54,173 (INFO): a escutar na porta 8000
+2023-06-06 20:16:56,694 (INFO): o cliente com endereço ('127.0.0.1', 50784) ligou-se!
+2023-06-06 20:17:55,352 (INFO): a escutar na porta 8000
+2023-06-06 20:17:59,032 (INFO): o cliente com endereço ('127.0.0.1', 50785) ligou-se!
+2023-06-06 20:18:17,105 (INFO): a escutar na porta 8000
+2023-06-06 20:18:19,379 (INFO): o cliente com endereço ('127.0.0.1', 50787) ligou-se!
+2023-06-06 20:19:14,267 (INFO): a escutar na porta 8000
+2023-06-06 20:19:16,064 (INFO): o cliente com endereço ('127.0.0.1', 50793) ligou-se!
+2023-06-06 20:20:39,459 (INFO): a escutar na porta 8000
+2023-06-06 20:20:42,344 (INFO): o cliente com endereço ('127.0.0.1', 50819) ligou-se!
+2023-06-06 20:23:36,183 (INFO): a escutar na porta 8000
+2023-06-06 20:23:39,023 (INFO): o cliente com endereço ('127.0.0.1', 50822) ligou-se!
+2023-06-06 20:29:31,233 (INFO): a escutar na porta 8000
+2023-06-06 20:29:34,310 (INFO): o cliente com endereço ('127.0.0.1', 50860) ligou-se!
+2023-06-06 21:19:20,473 (INFO): a escutar no porto 8000
+2023-06-06 21:19:23,017 (INFO): o cliente com endereço ('127.0.0.1', 51334) ligou-se!
+2023-06-06 21:22:08,792 (INFO): a escutar no porto 8000
+2023-06-06 21:22:10,853 (INFO): o cliente com endereço ('127.0.0.1', 51354) ligou-se!
+2023-06-06 21:24:25,856 (INFO): a escutar no porto 8000
+2023-06-06 21:24:25,866 (INFO): o cliente com endereço ('127.0.0.1', 51359) ligou-se!
+2023-06-06 21:25:02,174 (INFO): a escutar no porto 8000
+2023-06-06 21:25:03,852 (INFO): o cliente com endereço ('127.0.0.1', 51361) ligou-se!
+2023-06-06 21:25:58,055 (INFO): a escutar no porto 8000
+2023-06-06 21:26:01,246 (INFO): o cliente com endereço ('127.0.0.1', 51368) ligou-se!
+2023-06-06 21:29:10,906 (INFO): a escutar no porto 8000
+2023-06-06 21:29:13,028 (INFO): o cliente com endereço ('127.0.0.1', 51389) ligou-se!
+2023-06-06 21:39:03,332 (INFO): a escutar no porto 8000
+2023-06-06 21:39:03,467 (INFO): o cliente com endereço ('127.0.0.1', 51471) ligou-se!
+2023-06-06 21:39:24,735 (INFO): a escutar no porto 8000
+2023-06-06 21:39:26,936 (INFO): o cliente com endereço ('127.0.0.1', 51477) ligou-se!
+2023-06-06 21:51:48,542 (INFO): a escutar no porto 8000
+2023-06-06 21:51:50,722 (INFO): o cliente com endereço ('127.0.0.1', 51606) ligou-se!
+2023-06-07 12:36:31,325 (INFO): a escutar no porto 8000
+2023-06-07 12:36:31,808 (INFO): o cliente com endereço ('127.0.0.1', 56794) ligou-se!
+2023-06-07 12:47:45,370 (INFO): a escutar no porto 8000
+2023-06-07 12:47:47,583 (INFO): o cliente com endereço ('127.0.0.1', 56874) ligou-se!
+2023-06-07 12:48:29,336 (INFO): a escutar no porto 8000
+2023-06-07 12:48:35,482 (INFO): o cliente com endereço ('127.0.0.1', 56875) ligou-se!
+2023-06-07 12:49:28,252 (INFO): a escutar no porto 8000
+2023-06-07 12:49:32,075 (INFO): o cliente com endereço ('127.0.0.1', 56877) ligou-se!
+2023-06-07 12:50:14,058 (INFO): a escutar no porto 8000
+2023-06-07 12:50:15,818 (INFO): o cliente com endereço ('127.0.0.1', 56880) ligou-se!
+2023-06-07 12:51:15,063 (INFO): a escutar no porto 8000
+2023-06-07 12:51:18,250 (INFO): o cliente com endereço ('127.0.0.1', 56883) ligou-se!
+2023-06-07 12:56:20,600 (INFO): a escutar no porto 8000
+2023-06-07 12:56:22,238 (INFO): o cliente com endereço ('127.0.0.1', 56907) ligou-se!
+2023-06-07 13:29:47,602 (INFO): a escutar no porto 8000
+2023-06-07 13:29:50,045 (INFO): o cliente com endereço ('127.0.0.1', 57118) ligou-se!
+2023-06-07 13:36:24,753 (INFO): a escutar no porto 8000
+2023-06-07 13:36:27,210 (INFO): o cliente com endereço ('127.0.0.1', 57213) ligou-se!
+2023-06-07 13:37:03,800 (INFO): o cliente com endereço ('127.0.0.1', 57222) ligou-se!
+2023-06-07 13:37:30,292 (INFO): a escutar no porto 8000
+2023-06-07 13:37:35,868 (INFO): o cliente com endereço ('127.0.0.1', 57224) ligou-se!
+2023-06-07 13:38:44,769 (INFO): o cliente com endereço ('127.0.0.1', 57242) ligou-se!
+2023-06-07 13:48:14,162 (INFO): a escutar no porto 8000
+2023-06-07 13:48:21,463 (INFO): o cliente com endereço ('127.0.0.1', 57273) ligou-se!
+2023-06-07 13:48:27,202 (INFO): o cliente com endereço ('127.0.0.1', 57274) ligou-se!
+2023-06-07 14:15:31,469 (INFO): a escutar no porto 8000
+2023-06-07 14:15:36,609 (INFO): o cliente com endereço ('127.0.0.1', 57384) ligou-se!
+2023-06-07 14:16:04,525 (INFO): a escutar no porto 8000
+2023-06-07 14:16:06,717 (INFO): o cliente com endereço ('127.0.0.1', 57385) ligou-se!
+2023-06-07 14:16:30,986 (INFO): a escutar no porto 8000
+2023-06-07 14:16:34,705 (INFO): o cliente com endereço ('127.0.0.1', 57389) ligou-se!
+2023-06-07 14:17:14,458 (INFO): a escutar no porto 8000
+2023-06-07 14:17:17,355 (INFO): o cliente com endereço ('127.0.0.1', 57392) ligou-se!
+2023-06-07 14:17:28,238 (INFO): o cliente com endereço ('127.0.0.1', 57394) ligou-se!
