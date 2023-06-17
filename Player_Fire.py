@@ -8,8 +8,9 @@ M_LEFT = 3
 
 
 class PlayerFire(pygame.sprite.DirtySprite):
-    def __init__(self, number: int, name: str, pos_x: int, pos_y: int, sq_size: int, *groups):
+    def __init__(self, number: int, name: str, pos_x: int, pos_y: int, sq_size: int, principal: bool, *groups):
         super().__init__(*groups)
+        self.principal = principal
         self.number = number
         self.name = name
         self.image = pygame.image.load('imagens/fogo.png')
@@ -32,24 +33,30 @@ class PlayerFire(pygame.sprite.DirtySprite):
         self.dirty = 1
 
     def update(self, stub: client_stub.StubClient):
+        if self.principal:
+            key = pygame.key.get_pressed()
+            if key[pygame.K_LEFT]:
+                pos = stub.execute(M_LEFT, "player", self.number)
+                if self.rect.x != pos[0]:
+                    self.rect.x = pos[0] * self.sq_size
+            if key[pygame.K_RIGHT]:
+                pos = stub.execute(M_RIGHT, "player", self.number)
 
-        key = pygame.key.get_pressed()
-        if key[pygame.K_LEFT]:
-            pos = stub.execute(M_LEFT, "player", self.number)
+                if self.rect.x != pos[0]:
+                    self.rect.x = pos[0] * self.sq_size
+            if key[pygame.K_UP]:
+                pos = stub.execute(M_UP, "player", self.number)
+                if self.rect.y != pos[1]:
+                    self.rect.y = pos[1] * self.sq_size
+            if key[pygame.K_DOWN]:
+                pos = stub.execute(M_DOWN, "player", self.number)
+                if self.rect.y != pos[1]:
+                    self.rect.y = pos[1] * self.sq_size
+        else:
+            pos = stub.update("player", self.number)
             if self.rect.x != pos[0]:
                 self.rect.x = pos[0] * self.sq_size
-        if key[pygame.K_RIGHT]:
-            pos = stub.execute(M_RIGHT, "player", self.number)
-
-            if self.rect.x != pos[0]:
-                self.rect.x = pos[0] * self.sq_size
-        if key[pygame.K_UP]:
-            pos = stub.execute(M_UP, "player", self.number)
             if self.rect.y != pos[1]:
                 self.rect.y = pos[1] * self.sq_size
-        if key[pygame.K_DOWN]:
-            pos = stub.execute(M_DOWN, "player", self.number)
-            if self.rect.y != pos[1]:
-                self.rect.y = pos[1] * self.sq_size
-
+        # Keep visible
         self.dirty = 1

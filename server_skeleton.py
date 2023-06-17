@@ -4,6 +4,7 @@ import Game_mech
 import constant
 import client_session_management
 from typing import Union
+import shared
 
 
 class SkeletonServer:
@@ -15,10 +16,11 @@ class SkeletonServer:
         self.s.listen()
         self.s.settimeout(constant.ACCEPT_TIMEOUT)
         self.keep_running = True
+        self.shared = shared.Shared()
 
     def accept(self) -> Union['Socket', None]:
         """
-        A new definition of accept() to provide a return if a timeout occurs.
+        Nova definição do 'accept()' para providenciar um novo retorno no evento de um 'timeout'
         """
         try:
             client_connection, address = self.s.accept()
@@ -35,7 +37,7 @@ class SkeletonServer:
             if socket_client is not None:
                 # Add client
                 # self._state.add_client(socket_client)
-                client_session_management.ClientSession(socket_client, self.gm).start()
+                client_session_management.ClientSession(socket_client, self.shared, self.gm).start()
 
         self.s.close()
 

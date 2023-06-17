@@ -8,6 +8,7 @@ import Lava
 import Close_door
 from Game_mech import GameMech
 import client_stub
+import Victory_door
 
 
 class Game(object):
@@ -27,6 +28,7 @@ class Game(object):
         # criando grupos e Game Mechanics
         self.walls = pygame.sprite.Group()
         self.closedoor = pygame.sprite.Group()
+        self.victorydoor = pygame.sprite.Group()
         self.button = pygame.sprite.Group()
         self.lava = pygame.sprite.Group()
         self.oceano = pygame.sprite.Group()
@@ -66,6 +68,13 @@ class Game(object):
                 if item.__contains__("closedoor"):
                     Close_door.CloseDoor(key[0], key[1], wall_size, self.closedoor)
 
+    def create_victory_door(self, world: dict, wall_size: int):
+        # Create close_door (sprites) around world
+        for key, value in world.items():
+            for item in value:
+                if item.__contains__("victorydoor"):
+                    Victory_door.VictoryDoor(key[0], key[1], wall_size, self.victorydoor)
+
     def create_button(self, world: dict, wall_size: int):
         # Create button (sprites) around world
         for key, value in world.items():
@@ -89,27 +98,44 @@ class Game(object):
 
     def set_players(self):
         self.pl = self.stub.get_players()
+        print(self.pl)
         nr_players = self.stub.get_nr_players()
         self.players = pygame.sprite.LayeredDirty()
         # Test
-        print("Game2, Nr. of players:", nr_players)
-        print("Game2, Players:", self.pl)
+        print("Jogo -> Número de jogadores:", nr_players)
+        print("Jogo -> Jogadores:", self.pl)
         for nr in range(nr_players):
-            if self.pl[str(nr)]:
+            if self.pl[str(nr)] != []:
                 # Test
-                print("Game2, Player added:", nr)
+                print("Jogador adicionado:", nr)
                 p_x, p_y = self.pl[str(nr)][1][0], self.pl[str(nr)][1][1]
-                if nr == 0:
-                    player = Player_Water.PlayerWater(nr, self.pl[str(nr)][0], p_x, p_y, self.grid_size, self.players)
-                    self.players.add(player)
+                if self.my_number == nr:
+                    if self.pl[str(nr)][0] == "agua":
+                        player = Player_Water.PlayerWater(nr, self.pl[str(nr)][0], p_x, p_y, self.grid_size, True, self.players)
+                    else:
+                        player = Player_Fire.PlayerFire(nr, self.pl[str(nr)][0], p_x, p_y, self.grid_size, True, self.players)
                 else:
-                    player = Player_Fire.PlayerFire(nr, self.pl[str(nr)][0], p_x, p_y, self.grid_size, self.players)
-                    self.players.add(player)
+                    if self.pl[str(nr)][0] == "agua":
+                        player = Player_Water.PlayerWater(nr, self.pl[str(nr)][0], p_x, p_y, self.grid_size, False, self.players)
+                    else:
+                        player = Player_Fire.PlayerFire(nr, self.pl[str(nr)][0], p_x, p_y, self.grid_size, False, self.players)
+                self.players.add(player)
+
+
+    def add_player(self, name: str, x: int, y: int) -> int:
+        return self.stub.add_player(name, x, y)
 
     def run(self):
         # Create Sprites
-        nome = input("Por favor, qual é o seu nome?")
-        self.stub.add_player(nome)
+        nome = input("Por favor, indique a personagem que deseja jogar ('agua' ou 'fogo'):")
+        if nome == "agua":
+            self.my_number = self.add_player(nome, 1, 1)
+        if nome == "fogo":
+            self.my_number = self.add_player(nome, 18, 18)
+
+        print("Esperando pelo inicio do jogo...")
+        self.stub.start_game()
+        self.set_players()
         self.set_players()
 
         self.create_walls(self._game_mechanics.get_world(), self.grid_size)
@@ -117,9 +143,11 @@ class Game(object):
         self.create_lava(self._game_mechanics.get_world(), self.grid_size)
         self.create_oceano(self._game_mechanics.get_world(), self.grid_size)
         self.create_closedoor(self._game_mechanics.get_world(), self.grid_size)
+        self.create_victory_door(self._game_mechanics.get_world(), self.grid_size)
 
         self.walls.draw(self.screen)
         self.closedoor.draw(self.screen)
+        self.victorydoor.draw(self.screen)
         self.button.draw(self.screen)
         self.oceano.draw(self.screen)
         self.lava.draw(self.screen)
@@ -136,6 +164,7 @@ class Game(object):
             self.players.update(self.stub)
             self.oceano.draw(self.screen)
             self.lava.draw(self.screen)
+            self.victorydoor.draw(self.screen)
             pygame.display.update()
 
             rects = self.players.draw(self.screen)
